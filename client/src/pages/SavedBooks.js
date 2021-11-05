@@ -15,7 +15,7 @@ const SavedBooks = () => {
 
   // use this to determine if `useEffect()` hook needs to run again
   const handleRemoveBook = async (bookId) => {
-    const token = Auth.loggedIn() ? Auth.getToken() : null;
+    const token = Auth.loggedIn() ? Auth.getToken(): null;
 
     if (!token) {
       return false;
@@ -25,7 +25,7 @@ const SavedBooks = () => {
         variables: { bookId: bookId }
       });
       removeBookId(bookId);
-    } catch (err) {
+    }catch (err) {
       console.error(err);
     }
   };
