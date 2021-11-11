@@ -41,7 +41,7 @@
 
 - [Application Deployed in Heroku](https://book-search-engine-mirza.herokuapp.com/)
 
-- [Github link](https://github.com/mirzadev/Book-Search-Engine)
+- [Github link](https://mirzadev.github.io/Book-Search-Engine/)
 
 
 ## User Story
